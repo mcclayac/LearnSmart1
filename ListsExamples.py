@@ -18,4 +18,3 @@ print(" Items 3rd to the end", list[2:])
 print("Tyiny list 2 times: ", tinylist * 3)
 
 print ("Concatenate list", list + tinylist)
-
