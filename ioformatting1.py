@@ -8,28 +8,27 @@ __revision_date__ = '$'
 
 print("\nIO Formatting 1\n")
 from Class7IO.formattingExample1 import example1, example2, example3, example4
-
-
 example1()
-
 example2()
-
 example3()
-
 example4()
 
 
 from Class7IO.formattingExample2 import format1, format2, format3, format4
-
 print("\n\nIO Formatting 2\n")
-
 format1()
-
 format2()
-
 format3()
-
 format4()
+
+
+from Class7IO.formattingExample3 import formatMath1, formatMath2, formatMath3, formatMath4
+formatMath1()
+formatMath2()
+formatMath3()
+formatMath4()
+
+
 
 
 
