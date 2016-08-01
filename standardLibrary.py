@@ -16,11 +16,14 @@ from Class10StandardLibrary.commandLineExamples \
     import commandLine1, commandLine2, commandline3, \
     commandLine4
 
-commandLine1()
-commandLine2()
-commandline3()
-commandLine4()
+import Class10StandardLibrary.compression
 
+# from Class10StandardLibrary.compression
+
+
+#average([40,60,140])
+
+unittest.main()
 
 
 
