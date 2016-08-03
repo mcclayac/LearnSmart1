@@ -8,6 +8,7 @@ __revision_date__ = '$'
 def contextLib1():
     # import contextlib module - Utilities for with-statement contexts
     from contextlib import closing
+    import os
 
     # import urllib.request module - Extensible library for opening URLs
     from urllib.request import urlopen
