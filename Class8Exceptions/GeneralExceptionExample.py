@@ -33,6 +33,7 @@ def trycatchExample2():
         file = open('/mcclayac/pythoncode/LearnSmart1/Class8Exceptions/myfile1.txt', 'r')
         str = file.readline()
         vara = int(str.strip())
+        print(vara)
         print( vara * 2)
 
     except OSError as err:

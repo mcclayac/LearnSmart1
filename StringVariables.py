@@ -15,4 +15,4 @@ print("string starting from third to end", str[2:])
 
 print("String 2 times", str * 4)
 
-print("String Concat", str + "TEST")
+print("String Concat : ", str + "TEST")

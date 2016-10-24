@@ -14,7 +14,7 @@ def standardLibrary1():
     os.system('mkdir temp')
 
     dir(os)
-    help(os)
+    # help(os)
 
 
 def standardLibrary2():

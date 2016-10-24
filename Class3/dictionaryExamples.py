@@ -25,6 +25,10 @@ dict['Year'] = 2013
 # created a new key with value
 dict['School'] = 'Milton High'
 
+s = "These nutz"
+isinstance()
+issub
+
 print("dict: ", dict)
 print("dict['Year']: ", dict['Year'])
 print("dict['School']: ", dict['School'])

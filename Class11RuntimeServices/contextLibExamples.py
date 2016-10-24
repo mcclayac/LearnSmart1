@@ -25,3 +25,20 @@ def contextLib1():
         os.remove('somefile.tmp')
 
 
+from contextlib import ContextDecorator
+
+class myContext(ContextDecorator):
+    def __enter__(self):
+        print("Starting")
+        return self
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        print('Finishing')
+        return False
+
+
+# decorator
+@myContext()
+def function():
+    print('The bit in the middle')
+

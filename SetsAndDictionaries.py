@@ -16,3 +16,6 @@ print("Crabgress in basket ?", 'crabgrass' in basketSet)
 dic = { "IBM" : 658.42, 'Intel' : 432.80}
 
 print("dic :", dic )
+
+print(dic['Intel'])
+

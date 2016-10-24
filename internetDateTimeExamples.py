@@ -16,5 +16,5 @@ internetAccess1()
 from Class10StandardLibrary.DatetimeExamples \
     import dateTime1
 
-dateTime1()
+# dateTime1()
 

@@ -14,21 +14,21 @@ from Class8Exceptions.GeneralExceptionExample \
 
 
 
-#divisionByZero()
-#stringExample()
-#nameexample()
+# divisionByZero()
+# stringExample()
+# nameexample()
 
 
-#trycatchExample1()
-#trycatchExample2()
+# trycatchExample1()
+# trycatchExample2()
 
 from Class8Exceptions.userDefinedExceptionExample \
     import example1, example2
 
 
 
-#example1()
-#example2()
+example1()
+example2()
 
 from Class8Exceptions.tryFinallyExample \
     import exampleTry1, exampleTry2
@@ -40,11 +40,11 @@ from Class8Exceptions.tryFinallyExample \
 
 
 
-from Class8Exceptions.withExample \
-    import withExample1, withExample2
-
-withExample1()
-withExample2()
-
+# from Class8Exceptions.withExample \
+#     import withExample1, withExample2
+#
+# withExample1()
+# withExample2()
+#
 
 
