@@ -7,6 +7,8 @@ str = 'Hello World '
 
 print(str)
 
+print('This is a new version - Tony1')
+
 print("You will get the first charcter :", str[0])
 
 print("string starting from third to 5th", str[2:5])
