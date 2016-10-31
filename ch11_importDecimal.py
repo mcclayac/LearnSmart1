@@ -1,12 +1,22 @@
 
 
-from decimal import Decimal
-b = Decimal(25)
-print(type(b))
-print(b)
+# from decimal import Decimal
+# b = Decimal(25)
+# print(type(b))
+# print(b)
 
 
+# import numbers
+# print(numbers.__file__)
+from _decimal import *
 
+from decimal import *
+d = Decimal(25)
+print(d)
+
+
+#from decimal import Decimal
+#print(Decimal.__file__)
 
 
 # from decimal import *

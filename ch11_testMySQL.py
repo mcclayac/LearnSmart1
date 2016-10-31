@@ -1,4 +1,4 @@
-import numbers
+import numbers_learn
 #import decimal
 import math
 
@@ -8,7 +8,7 @@ math.sqrt(100)
 print("After sqrt(100)")
 
 print("Before numbers.__file__")
-print (numbers.__file__)
+print (numbers_learn.__file__)
 print("After numbers.__file__")
 
 print("Before import decimal")
@@ -20,9 +20,9 @@ import pymysql.cursors
 
 # Connect to the database
 connection = pymysql.connect(host='localhost',
-                             user='user',
-                             password='passwd',
-                             db='db',
+                             user='mcclayac',
+                             password='11javajava',
+                             db='movies',
                              charset='utf8mb4',
                              cursorclass=pymysql.cursors.DictCursor)
 
