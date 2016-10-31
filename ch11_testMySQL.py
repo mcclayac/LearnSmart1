@@ -1,4 +1,22 @@
+import numbers
+#import decimal
+import math
+
+
+print("Before sqrt(100)")
+math.sqrt(100)
+print("After sqrt(100)")
+
+print("Before numbers.__file__")
+print (numbers.__file__)
+print("After numbers.__file__")
+
+print("Before import decimal")
+import decimal
+print("After import decimal")
+
 import pymysql.cursors
+
 
 # Connect to the database
 connection = pymysql.connect(host='localhost',
