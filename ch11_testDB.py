@@ -4,10 +4,10 @@ import mysql.connector
 from mysql.connector import errorcode
 
 config = {
-    'user': 'mcclay',
+    'user': 'mcclayac',
     'password': '11javajava',
     'host': '127.0.0.1',
-    'database': 'pythondb'
+    'database': 'employees'
 }
 
 
