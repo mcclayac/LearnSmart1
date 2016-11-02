@@ -30,6 +30,9 @@ CREATE TABLE student (
 
 
 cursor.execute(ddl)
+sql = "commit;"
+cursor.execute(sql)
+
 
 print("Table is created")
 

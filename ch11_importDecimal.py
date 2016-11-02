@@ -8,9 +8,9 @@
 
 # import numbers
 # print(numbers.__file__)
-from _decimal import *
+#from _decimal import *
 
-from decimal import *
+from decimal import Decimal
 d = Decimal(25)
 print(d)
 
