@@ -6,8 +6,9 @@ from Class12.fileObjects import fileObjectsWrite, \
     tempFile, lzmaCompression, gzipCOmpression
 
 
-
-
+from Class12.PipesObjectsExample import pipesExample, poolExample
+from Class12.lockObjectsExample import lockExample
+from Class12.sharedMemoryObjectExample import sharedMemoryExample
 
 import sys
 
@@ -27,4 +28,13 @@ import sys
 #lzmaCompression()
 
 
-gzipCOmpression()
+#gzipCOmpression()
+
+
+#pipesExample()
+#poolExample()
+
+#lockExample()
+sharedMemoryExample()
+
+
