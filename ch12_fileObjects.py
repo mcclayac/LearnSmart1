@@ -9,6 +9,7 @@ from Class12.fileObjects import fileObjectsWrite, \
 from Class12.PipesObjectsExample import pipesExample, poolExample
 from Class12.lockObjectsExample import lockExample
 from Class12.sharedMemoryObjectExample import sharedMemoryExample
+from Class12.managerObjectExample import managerExample
 
 import sys
 
@@ -36,5 +37,8 @@ import sys
 
 #lockExample()
 sharedMemoryExample()
+managerExample()
+
+
 
 
