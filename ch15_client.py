@@ -21,6 +21,8 @@ host = socket.gethostname()
 # Reserve a port for your service.
 port = 12345
 
+
+
 s.connect((host, port))
 
 print(s.recv(1024).decode('utf-8'))
