@@ -18,6 +18,11 @@ s = socket.socket()
 host = socket.gethostname()
 print("\n Local machine name: ",host)
 
+hostIP = socket.gethostbyname(host)
+print("Hostname IP : " , hostIP)
+
+
+
 # Reserve a port for your service.
 port = 12345
 print("\n port: ",port)
